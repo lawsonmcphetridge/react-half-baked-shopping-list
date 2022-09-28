@@ -6,7 +6,6 @@ import Header from './components/Header';
 import Items from './components/Items/Items';
 import { UserContext } from './context/UserContext';
 import backgroundImage from './supermarket.jpeg';
-import { Redirect } from 'react-router-dom';
 
 function App() {
   const { user } = useContext(UserContext);

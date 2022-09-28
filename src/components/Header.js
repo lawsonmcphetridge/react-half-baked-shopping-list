@@ -6,11 +6,12 @@ import { useContext } from 'react';
 import { UserContext } from '../context/UserContext';
 
 export default function Header() {
-  const { setUser } = useContext(UserContext);
-  const [isActive, setIsActive] = useState(false);
   // TODO -- replace this user with the user from context
-  const user = { email: 'this is a placeholder' };
+  const { user, setUser } = useContext(UserContext);
+  const [isActive, setIsActive] = useState(false);
 
+  
+  
   const handleLogout = async () => {
     try {
       await signOut();
