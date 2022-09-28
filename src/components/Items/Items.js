@@ -8,7 +8,7 @@ import { Redirect } from 'react-router-dom';
 export default function Items() {
   const [name, setName] = useState('');
   const [qty, setQty] = useState(0);
-  const [user, setUser] = useContext(UserContext);
+  const { user } = useContext(UserContext);
 
   const { items, setItems } = useItems();
 
