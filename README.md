@@ -27,6 +27,6 @@ Search for `TODO` in the app to find the various places you need to add code
 | ------------------------------------------------------------------------------------- | ------ |
 | User Provider exports `user` and `setUser` state and setter function          done        | 2      |
 | Auth component uses UserContext and redirects to `/items` if current user      done       | 2      |
-| Items component uses UserContext and redirects to `/auth/sign-in` if not current user | 2      |
+| Items component uses UserContext and redirects to `/auth/sign-in` if not current user done | 2      |
 | Users can sign in and sign up for an account                                          | 2      |
 | Home route `/` redirects to auth                                                      | 2      |
